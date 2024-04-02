@@ -1,0 +1,30 @@
+.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    background: linear-gradient(0deg, #09080e, #171522);
+}
+
+.desktopImage {
+    width: 298 px;
+    height: 193px;
+    padding-bottom: 80px;
+}
+
+.services p {
+    color: white;
+    padding-bottom: 60px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media (min-width:800) {
+    .services p {
+        font-size: 2.5em;
+    }
+    .desktopImage {
+        width: 596px;
+        height: 386;
+    }
+}
