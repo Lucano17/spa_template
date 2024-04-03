@@ -7,6 +7,10 @@
     padding-top: 100px;
 }
 
+.benefits h2 {
+    text-align: center;
+}
+
 .benefitsTitle {
     font-size: 2em;
     font-weight: 400;

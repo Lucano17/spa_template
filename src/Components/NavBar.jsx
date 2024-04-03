@@ -65,7 +65,7 @@ const NavBar = () => {
     {!navBarOpen && 
     
     <p className={styles.logo}>
-      <span>DLF DEV | </span> 
+      <span>Lucas | </span> 
       Web development
     </p>}
     
@@ -76,9 +76,9 @@ const NavBar = () => {
       size={25}/>
     ) : windowDimention.width < 800 && (
       <IoCloseSharp 
+      className={styles.closeIcon}
       onClick={()=> setNavBarOpen(!navBarOpen)} 
       color='white' 
-      size={25}
       />
     )}
       {navBarOpen && (
@@ -102,7 +102,19 @@ const NavBar = () => {
           <div className={styles.border}></div>
         </div>
       ))}
+      <Link
+    onClick={()=>{
+      setNavBarOpen(false)
+      // activeSection
+      handleSectionClick("Contact")
+    }}
+    to={"Contact"}
+    smooth
+    duration={500}
+    className={`${styles.navLink} ${activeSection === "Contact" ? styles.activeSection: ""}`}>
+      Contact</Link>
       </li> 
+      
     </ul>
     )}
     {
