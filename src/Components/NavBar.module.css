@@ -61,7 +61,7 @@
     cursor: pointer
 }
 
-@media (min-width: 800px){
+@media (min-width: 1070px){
     .logo {
         font-size: 1.5em;
     }

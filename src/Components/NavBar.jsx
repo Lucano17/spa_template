@@ -28,7 +28,7 @@ const NavBar = () => {
   
   useEffect(()=>{
     window.addEventListener("resize", detectDimention)
-    windowDimention.width > 800 && setNavBarOpen(false)
+    windowDimention.width > 1070 && setNavBarOpen(false)
     return ()=>{
       window.removeEventListener("resize", detectDimention)
     }
@@ -69,12 +69,12 @@ const NavBar = () => {
       Web development
     </p>}
     
-    {!navBarOpen && windowDimention.width < 800 ? (
+    {!navBarOpen && windowDimention.width < 1070 ? (
       <IoMenu 
       color='white'
       onClick={()=> setNavBarOpen(!navBarOpen)} 
       size={25}/>
-    ) : windowDimention.width < 800 && (
+    ) : windowDimention.width < 1070 && (
       <IoCloseSharp 
       className={styles.closeIcon}
       onClick={()=> setNavBarOpen(!navBarOpen)} 
@@ -118,7 +118,7 @@ const NavBar = () => {
     </ul>
     )}
     {
-    windowDimention.width > 800 &&
+    windowDimention.width > 1070 &&
     <ul className={styles.linksContainer}>
     {links.map((x) => (
       <div>

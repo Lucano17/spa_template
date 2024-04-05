@@ -10,3 +10,7 @@ Tasks:
 4) Hacer cuatro tarjetas, una para cada servicio (single page, multiple pages, e-commerce y blog), que ocupen el mismo espacio y que al momento de hacer click en una, se superponga por encima de las demás y veas únicamente los proyectos de ejemplo realizados para ese servicio.
 
 5) Colocar un set language (español, inglés, italiano).
+
+6) En la sección de Home, colocar una foto mía, poner datos de mi contacto (github, linkedin), herramientas que uso, etc. Cambiar la página de
+How We Work por Experience, y poner trabajos que realicé, y experiencia laboral tanto de forma autónoma como en relación de dependencia, y 
+colocarla en penúltima posición, entre Benefits y Contact.
