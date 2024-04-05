@@ -8,6 +8,7 @@
     background: linear-gradient(180deg, #09080e, #171522);
     padding: 20px 20px 200px;
     align-items: center;
+    padding-top: 50px;
 }
 
 .titleContainer {
@@ -20,6 +21,7 @@
 }
 
 .callToAction {
+    font-size: 1.3em;
     color: white;
     background: none;
     border: 3px solid rgb(239, 61, 255);
@@ -33,5 +35,5 @@
 }
 
 .ctaContainer {
-    padding-top: 40px;
+    margin-top: 40px;
 }

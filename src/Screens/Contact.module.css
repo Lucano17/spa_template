@@ -43,6 +43,7 @@ input:-webkit-autofill:active{
 .options {
     color: white;
     border: 3px solid  #413b5e;
+    height: 30px;
     width: 90%;
     resize: none;
     margin-top: 5px;

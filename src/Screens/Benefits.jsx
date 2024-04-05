@@ -10,7 +10,7 @@ import { FaRepeat } from "react-icons/fa6";
 const Benefits = () => {
   return (
     <div name="Benefits" className={styles.benefits}>
-      <h2 className={styles.benefitsTitle}>Benefits of having a profesional web</h2>
+      <h2 className={styles.benefitsTitle}>Benefits of having a profesional web with us</h2>
       <p>You open up to the world <TbWorldDollar/></p>
       <p>New customers <FaPeopleCarry/></p>
       <p>Much lower costs <FaMoneyBillAlt/></p>

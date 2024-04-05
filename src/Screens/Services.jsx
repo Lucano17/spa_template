@@ -8,7 +8,8 @@ const Services = () => {
 
   return (
     <div name="Services" className={styles.services}>
-      <p>We solve your company's problems by creating amazing web pages</p>
+      <p>We can take your business to the next level, and achieve your goals</p>
+      <p>We can make a <b>Landing page</b>, a <b>Multi-page web</b>, an <b>E-commerce</b>, a <b>Blog</b> an much more </p>
       <img 
       className={styles.desktopImage} 
       src={desktop} 

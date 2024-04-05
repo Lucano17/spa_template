@@ -65,7 +65,7 @@ const NavBar = () => {
     {!navBarOpen && 
     
     <p className={styles.logo}>
-      <span>Lucas | </span> 
+      <span>Lucas DLF | </span> 
       Web development
     </p>}
     
