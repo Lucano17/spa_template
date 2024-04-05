@@ -1,7 +1,7 @@
 .contact {
     align-items: center;
     display: flex;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 100px;
     flex-direction: column;
     background: linear-gradient(180deg, #09080e, #171522);
@@ -76,6 +76,9 @@ input:-webkit-autofill:active{
 }
 
 @media (min-width: 800px) {
+    .contact {
+        padding-top: 50px;
+    }
     .form {
         width: 50%;
     }

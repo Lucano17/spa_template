@@ -1,9 +1,9 @@
 Tasks:
-1) Hacer que los Links de NavBar cambien de color según la sección de la página en la que se encuentre. ✔️ (1.1.0)
+1) Hacer que los Links de NavBar cambien de color según la sección de la página en la que se encuentre. ✔️
 
 2) Adaptar la web a mi persona (Home, Services, How We Work y Benefits).
 
-3) Hacer un hook para que, al scrollear, se muestre en el NavBar la sección de la página en la que se encuentre el usuario.
+3) Hacer un hook para que, al scrollear, se muestre en el NavBar la sección de la página en la que se encuentre el usuario. ✔️
 
 3) Poner un logo en la preview de la web desde el archivo html, y cambiar el título de la web.
 

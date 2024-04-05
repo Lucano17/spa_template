@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Services.module.css"
-import desktop from "../assets/desktop.jpg"
+import coding1 from "../assets/coding1.jpg"
 
 const Services = () => {
 
@@ -12,7 +12,7 @@ const Services = () => {
       <p>We can make a <b>Landing page</b>, a <b>Multi-page web</b>, an <b>E-commerce</b>, a <b>Blog</b> an much more </p>
       <img 
       className={styles.desktopImage} 
-      src={desktop} 
+      src={coding1} 
       alt="desktop image" />
     </div>
   )
