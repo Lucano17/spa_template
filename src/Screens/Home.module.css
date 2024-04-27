@@ -37,3 +37,8 @@
 .ctaContainer {
     margin-top: 40px;
 }
+
+@media (min-width: 800px) {
+    .home {
+        padding-top: 10px;
+    }}
