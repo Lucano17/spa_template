@@ -65,8 +65,8 @@ const NavBar = () => {
     {!navBarOpen && 
     
     <p className={styles.logo}>
-      <span>Lucas DLF | </span> 
-      Web development
+      <span>React SPA | </span> 
+      Page Template
     </p>}
     
     {!navBarOpen && windowDimention.width < 1070 ? (
